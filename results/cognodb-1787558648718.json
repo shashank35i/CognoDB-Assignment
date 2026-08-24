@@ -1,0 +1,14 @@
+{
+  "target": "cognodb",
+  "dataset": {"nodes": 7115, "relationships": 103689},
+  "ingest": {"nodesPerSecond": 134.56750694545647, "relationshipsPerSecond": 1961.0920910284522, "totalMs": 52873.0907},
+  "queries": {
+    "oneHop": {"p50Ms": 607.6556, "p95Ms": 699.588, "samples": 100},
+    "twoHop": {"p50Ms": 617.1844, "p95Ms": 814.6113, "samples": 100},
+    "threeHop": {"p50Ms": 615.7066, "p95Ms": 938.0732, "samples": 100},
+    "pointLookup": {"p50Ms": 611.7227, "p95Ms": 887.6555, "samples": 100},
+    "filteredLookup": {"p50Ms": 613.8494, "p95Ms": 877.8817, "samples": 100},
+    "aggregation": {"p50Ms": 699.0063, "p95Ms": 919.2888, "samples": 100}
+  },
+  "mixed": {"qps": 13.897689600828615, "concurrency": 10, "writeRatio": 0.1, "durationMs": 7195.4406}
+}

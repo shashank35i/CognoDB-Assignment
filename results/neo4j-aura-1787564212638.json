@@ -1,0 +1,14 @@
+{
+  "target": "neo4j-aura",
+  "dataset": {"nodes": 7115, "relationships": 103689},
+  "ingest": {"nodesPerSecond": 270.51604111457533, "relationshipsPerSecond": 3942.310300369529, "totalMs": 26301.5826},
+  "queries": {
+    "oneHop": {"p50Ms": 192.4719, "p95Ms": 879.9691, "samples": 100},
+    "twoHop": {"p50Ms": 148.4181, "p95Ms": 527.2359, "samples": 100},
+    "threeHop": {"p50Ms": 156.3404, "p95Ms": 551.3084, "samples": 100},
+    "pointLookup": {"p50Ms": 144.0709, "p95Ms": 624.8943, "samples": 100},
+    "filteredLookup": {"p50Ms": 142.4731, "p95Ms": 564.734, "samples": 100},
+    "aggregation": {"p50Ms": 182.2332, "p95Ms": 779.2382, "samples": 100}
+  },
+  "mixed": {"qps": 36.98364634935536, "concurrency": 10, "writeRatio": 0.1, "durationMs": 2703.8978}
+}

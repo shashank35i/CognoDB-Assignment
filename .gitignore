@@ -1,0 +1,10 @@
+node_modules/
+.tools/
+target/
+.env
+data/
+*.benchmark.log
+cognodb.java*.log
+results/*.json
+!results/*.json
+!results/.gitkeep

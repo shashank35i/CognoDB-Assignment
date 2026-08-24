@@ -1,0 +1,56 @@
+{
+  "target": "cognodb",
+  "startedAt": "2026-08-24T07:46:29.525Z",
+  "dataset": {
+    "nodes": 7115,
+    "relationships": 103689,
+    "source": "https://snap.stanford.edu/data/wiki-Vote.txt.gz"
+  },
+  "ingest": {
+    "nodesPerSecond": 185.72675068097374,
+    "relationshipsPerSecond": 2706.650885644341,
+    "totalMs": 38308.9672
+  },
+  "queries": {
+    "oneHop": {
+      "p50Ms": 278.3982,
+      "p95Ms": 344.0183,
+      "samples": 100
+    },
+    "twoHop": {
+      "p50Ms": 277.9573,
+      "p95Ms": 338.7616,
+      "samples": 100
+    },
+    "threeHop": {
+      "p50Ms": 284.6778,
+      "p95Ms": 603.6438,
+      "samples": 100
+    },
+    "pointLookup": {
+      "p50Ms": 311.1525,
+      "p95Ms": 468.8484,
+      "samples": 100
+    },
+    "filteredLookup": {
+      "p50Ms": 291.2416,
+      "p95Ms": 606.0825,
+      "samples": 100
+    },
+    "aggregation": {
+      "p50Ms": 407.5053,
+      "p95Ms": 550.2447,
+      "samples": 100
+    }
+  },
+  "mixed": {
+    "qps": 24.921114082455546,
+    "concurrency": 10,
+    "writeRatio": 0.1,
+    "durationMs": 4012.6617
+  },
+  "caveats": [
+    "Client-observed end-to-end latency includes network transit and driver overhead.",
+    "Resource footprint is provider-specific; record any console-visible values separately."
+  ]
+}

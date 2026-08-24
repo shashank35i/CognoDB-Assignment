@@ -1,0 +1,14 @@
+{
+  "target": "memgraph",
+  "dataset": {"nodes": 7115, "relationships": 103689},
+  "ingest": {"nodesPerSecond": 26.024838726433657, "relationshipsPerSecond": 379.2676743085284, "totalMs": 273392.6644},
+  "queries": {
+    "oneHop": {"p50Ms": 522.5434, "p95Ms": 1809.113, "samples": 100},
+    "twoHop": {"p50Ms": 496.8848, "p95Ms": 520.9967, "samples": 100},
+    "threeHop": {"p50Ms": 496.301, "p95Ms": 663.0127, "samples": 100},
+    "pointLookup": {"p50Ms": 502.7175, "p95Ms": 1004.6314, "samples": 100},
+    "filteredLookup": {"p50Ms": 496.0133, "p95Ms": 695.5802, "samples": 100},
+    "aggregation": {"p50Ms": 601.4972, "p95Ms": 1589.5602, "samples": 100}
+  },
+  "mixed": {"qps": 12.755795799914425, "concurrency": 10, "writeRatio": 0.1, "durationMs": 7839.5736}
+}

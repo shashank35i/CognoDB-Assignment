@@ -1,0 +1,9 @@
+target=arangograph
+nodes=7115 relationships=103689 loadMs=68375.4508
+oneHop p50Ms=358.5713 p95Ms=1069.9315 samples=100
+twoHop p50Ms=289.988 p95Ms=904.482 samples=100
+threeHop p50Ms=304.4246 p95Ms=1025.7491 samples=100
+pointLookup p50Ms=257.6387 p95Ms=371.9244 samples=100
+filteredLookup p50Ms=261.8001 p95Ms=659.7315 samples=100
+aggregation p50Ms=348.5168 p95Ms=1709.4961 samples=100
+mixedQps=2.003892288240556 durationMs=49902.8818
